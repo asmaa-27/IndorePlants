@@ -12,6 +12,7 @@ import {
 } from "react-icons/ri";
 import ScrollReveal from "scrollreveal";
 import {useEffect} from 'react'
+import home1 from '../assets/home.png'
 const Home = () => {
 
   useEffect(() => {
@@ -81,7 +82,7 @@ const Home = () => {
             </div>
             {/* image */}
             <div className=" w-full relative lg:w-1/2">
-              <img src="/src/assets/home.png" alt="" className=" home_image" />
+              <img src={home1} alt="" className=" home_image" />
               {/* leaf */}
               <div className="absolute -top-10 right-0 opacity-30 animate-movingY xl:top-5">
                 <RiLeafLine className="text-6xl text-yellow-500" />

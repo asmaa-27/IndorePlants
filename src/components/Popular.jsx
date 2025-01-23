@@ -1,6 +1,10 @@
 import { RiStarFill,RiStarHalfFill,RiStarLine,RiShoppingCartFill } from "react-icons/ri";
 import ScrollReveal from "scrollreveal";
 import { useEffect } from "react";
+import cart_1 from '../assets/cart-1.png'
+import cart_2 from '../assets/cart-2.png'
+import cart_3 from '../assets/cart-3.png'
+import cart_4 from '../assets/cart-4.png'
 function Popular() {
   useEffect(() => {
     // Initialize ScrollReveal
@@ -35,7 +39,7 @@ function Popular() {
           {/* card 1  */}
           <div className="popular_card bg-green-950 p-10 pt-24 rounded-md relative">
             <img
-              src="/src/assets/cart-1.png"
+              src={cart_1}
               className="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500"
               alt=""
             />
@@ -58,7 +62,7 @@ function Popular() {
           {/* card 2  */}
           <div className="popular_card bg-green-950 p-10 pt-24 rounded-md relative">
             <img
-              src="/src/assets/cart-2.png"
+              src={cart_2}
               className="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500"
               alt=""
             />
@@ -81,7 +85,7 @@ function Popular() {
           {/* card 3  */}
           <div className="popular_card bg-green-950 p-10 pt-24 rounded-md relative">
             <img
-              src="/src/assets/cart-3.png"
+              src={cart_3}
               className="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500"
               alt=""
             />
@@ -104,7 +108,7 @@ function Popular() {
           {/* card 4  */}
           <div className="popular_card bg-green-950 p-10 pt-24 rounded-md relative">
             <img
-              src="/src/assets/cart-4.png"
+              src={cart_4}
               className="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500"
               alt=""
             />

@@ -8,6 +8,7 @@ import {
   RiSendPlane2Fill,
   RiLeafLine,
 } from "react-icons/ri";
+import floral_1 from "../assets/floral-1.png"
 
 const Footer = () => {
   useEffect(() => {
@@ -124,7 +125,7 @@ const Footer = () => {
         {/* floral image */}
         <div className="footer_floral  absolute bottom-0 left-0 opacity-30 pointer-events-none">
           <img
-            src="/src/assets/floral-1.png"
+            src={floral_1}
             alt="floral decoration"
             className="w-full lg:w-1/2"
           />

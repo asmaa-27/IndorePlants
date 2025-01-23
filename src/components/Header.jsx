@@ -1,5 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { RiMenu4Line, RiCloseLine } from "react-icons/ri";
+import leaf_1 from '../assets/leaf-1.png'
+import leaf_2 from '../assets/leaf-2.png'
 
 const Header = ({ activeLink }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -100,10 +102,10 @@ const Header = ({ activeLink }) => {
             </li>
           </ul>
           <div className="absolute bottom-0 -right-10 opacity-90 lg:hidden">
-            <img src="/src/assets/leaf-1.png" alt="leaf-1" className="w-32" />
+            <img src={leaf_1} alt="leaf-1" className="w-32" />
           </div>
           <div className="absolute -top-5 -left-5 rotate-90 opacity-90 lg:hidden">
-            <img src="/src/assets/leaf-2.png" alt="leaf-2" className="w-32" />
+            <img src={leaf_2} alt="leaf-2" className="w-32" />
           </div>
         </div>
         <div

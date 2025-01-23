@@ -1,5 +1,8 @@
 import ScrollReveal from "scrollreveal";
 import { useEffect } from "react";
+import plant_1 from "../assets/plant-1.png"
+import plant_2 from "../assets/plant-2.png"
+import leaf_3 from "../assets/leaf-3.png"
 const About = () => {
   useEffect(() => {
     // Initialize ScrollReveal
@@ -30,7 +33,7 @@ const About = () => {
       <section id="about" className="relative overflow-hidden">
         <div className="about_leaf absolute -top-8 -right-12 opacity-50">
           <img
-            src="/src/assets/leaf-3.png"
+            src={leaf_3}
             className="w-40 md:w-52 xl:w-46"
             alt=""
           />
@@ -45,7 +48,7 @@ const About = () => {
             {/* image */}
             <div className="about_item_1_img w-full lg:w-1/2">
               <img
-                src="/src/assets/plant-1.png"
+                src={plant_1}
                 alt=""
                 className="w-full sm:w-2/3 lg:w-full xl:w-2/3 mx-auto"
               />
@@ -73,7 +76,7 @@ const About = () => {
             {/* image */}
             <div className="about_item_2_img w-full lg:w-1/2">
               <img
-                src="/src/assets/plant-2.png"
+                src={plant_2}
                 alt=""
                 className="w-full sm:w-2/3 lg:w-full xl:w-2/3 mx-auto"
               />

@@ -5,6 +5,11 @@ import Swiper from "swiper";
 import "swiper/swiper-bundle.css"; 
 import "swiper/css/pagination"; 
 import { Pagination, Autoplay } from "swiper/modules";
+import leaf_4 from "../assets/leaf-4.png"
+import review_1 from '../assets/review-1.jpg'
+import review_2 from '../assets/review-2.jpg'
+import review_3 from '../assets/review-3.jpg'
+import review_4 from '../assets/review-4.jpg'
 
 function Review() {
   useEffect(() => {
@@ -67,7 +72,7 @@ function Review() {
       <section id="review" className="relative mb-20 md:mb-28 overflow-hidden">
         <div className=" review_leaf absolute -top-8 -left-12 opacity-50">
           <img
-            src="/src/assets/leaf-4.png"
+            src={leaf_4}
             className="w-40 md:w-52 xl:w-64"
             alt=""
           />
@@ -88,7 +93,7 @@ function Review() {
                   </p>
                   <div className="flex items-center">
                     <img
-                      src="/src/assets/review-1.jpg"
+                      src={review_1}
                       alt=""
                       className="w-12 h-12 rounded-full"
                     />
@@ -109,7 +114,7 @@ function Review() {
                   </p>
                   <div className="flex items-center">
                     <img
-                      src="/src/assets/review-2.jpg"
+                      src={review_2}
                       alt=""
                       className="w-12 h-12 rounded-full"
                     />
@@ -130,7 +135,7 @@ function Review() {
                   </p>
                   <div className="flex items-center">
                     <img
-                      src="/src/assets/review-3.jpg"
+                      src={review_3}
                       alt=""
                       className="w-12 h-12 rounded-full"
                     />
@@ -151,7 +156,7 @@ function Review() {
                   </p>
                   <div className="flex items-center">
                     <img
-                      src="/src/assets/review-4.jpg"
+                      src={review_4}
                       alt=""
                       className="w-12 h-12 rounded-full"
                     />
@@ -172,7 +177,7 @@ function Review() {
                   </p>
                   <div className="flex items-center">
                     <img
-                      src="/src/assets/review-2.jpg"
+                      src={review_2}
                       alt=""
                       className="w-12 h-12 rounded-full"
                     />
